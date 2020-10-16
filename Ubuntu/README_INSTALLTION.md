@@ -11,9 +11,9 @@ sudo apt upgrade -y
 
 sudo apt --fix-broken install -y software-properties-common curl git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
 sudo snap install postman
-sudo snap install code 
+sudo snap install code -- classic
 sudo snap install discord 
-sudo snap install skype 
+sudo snap install skype -- classic
 sudo snap install vlc
 
 sudo apt update
@@ -22,6 +22,9 @@ sudo add-apt-repository universe
 
 
 # install php packges
+sudo apt -y install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+
 wget https://raw.githubusercontent.com/bigmpc/bigmpc/main/Ubuntu/programing/php7-4.txt
 cat php7-4.txt  | xargs sudo apt-get install
 
