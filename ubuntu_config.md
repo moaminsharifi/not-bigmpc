@@ -1,4 +1,6 @@
-# In here I want to talk about which app and config I use in ubuntu base linux on main system (laptop and pc)
+# My linux config:
+
+In here I want to talk about which app and config I use in ubuntu base linux on main system (laptop and pc)
 ---
 ### My hardwares:
 - **Laptop: Dell xps 13 - i7 10510 - 16ram - 512 ssd nvme**
