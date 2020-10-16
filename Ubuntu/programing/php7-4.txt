@@ -1,16 +1,5 @@
 php7.4
 
-php7.4-amqp
-
-php7.4-apcu
-
-php7.4-apcu-bc
-
-php7.4-ast
-
-php7.4-bcmath
-
-php7.4-bz2
 
 php7.4-cgi
 
@@ -110,7 +99,6 @@ php7.4-xmlrpc
 
 php7.4-xsl
 
-php7.4-yac
 
 php7.4-yaml
 

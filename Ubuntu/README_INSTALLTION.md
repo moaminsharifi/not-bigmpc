@@ -22,7 +22,6 @@ sudo add-apt-repository universe
 
 
 # install php packges
-sudo apt -y install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 
 wget https://raw.githubusercontent.com/bigmpc/bigmpc/main/Ubuntu/programing/php7-4.txt
