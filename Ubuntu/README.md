@@ -88,7 +88,7 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     - skype
     - discord
   
-## Config ENV and Linux Custom config
+## [Config ENV and Linux Custom config](https://gist.github.com/bigmpc/7448ca77e1b4f8e70296bf6974d3b4a7)
 ```bash
 #spotify ad blocker
 127.0.0.1 media-match.com
