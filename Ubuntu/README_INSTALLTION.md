@@ -17,7 +17,6 @@ sudo snap install gimp  -y
 sudo snap install discord  -y
 sudo snap install skype  -y
 sudo snap install vlc -y
-snap install postman code gimp discord skype vlc
 
 sudo apt update
 sudo add-apt-repository universe
