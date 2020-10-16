@@ -12,46 +12,61 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
 
 ## List of Main Packges:
 - Packge Manager
-  - [Snapp](https://snapcraft.io/)
+  - [Snapp](https://snapcraft.io/) - `sudo apt install snapd`
 - Programing
   - IDE
-    - VSCODE - [configs](https://gist.github.com/bigmpc/e8615de2963724ee83c096bfe8646124)
+    - VSCODE - [configs](https://gist.github.com/bigmpc/e8615de2963724ee83c096bfe8646124) - `sudo apt install code`
 
       1- Install [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and login to github
       
       2 - Add gits id `e8615de2963724ee83c096bfe8646124`
       
       3- enjoy it!
-    - jupyter - configs
+    - jupyter - configs - `pip3 install jupyter`
     - IntelJ IDE - configs
     
   - ENV
-     - php 7.4
-     - python 3.8.x
-     - nodejs 12.x
-     - docker
+     - [php 7.4](https://github.com/bigmpc/bigmpc/blob/main/Ubuntu/programing/php.md)
+     - [python 3.8.x](https://github.com/bigmpc/bigmpc/blob/main/Ubuntu/programing/python.md)
+     - [nodejs 14.x](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+     - [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
      - rust nightly
      
  
 - Multi Media
   - Recoring Video
-   - ffmpeg
-   - obs-stduio
-   - [KDENLIVE video editor](https://kdenlive.org/en/)
+    - ffmpeg
+    - obs-stduio
+    ```bash 
+    sudo apt install ffmpeg
+    sudo add-apt-repository ppa:obsproject/obs-studio
+    sudo apt install obs-studio
+    ```
+   
   - Edit Video
+    - [KDENLIVE video editor](https://kdenlive.org/en/)
   - PDF Reader
-    - foxit reader
+    - [Foxit Reader](https://linuxhint.com/install_foxit_reader_ubuntu/)
     
   - Image Editing
-    - gimp
+    - gimp - `sudo snap install gimp`
     - [photopea](https://www.photopea.com/)
   
 - Internet:
   - Browser:
     - Firefox
-    - Chormium
-    - PostMan
- 
+    - Chormium - `sudo apt install chromium-browser`
+    - PostMan - `sudo snap install postman`
+
+
+- ENV and Linux Custom config
+  - VPN - Change IP
+    - [tor](https://molaei.org/tor-ubuntu/)
+    - nordvpn
+    ```bash 
+    wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
+    sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
+    ```
  
 
 ## list of fonts:
