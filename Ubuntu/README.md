@@ -53,8 +53,9 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
    
   - Edit Video
     - [KDENLIVE video editor](https://kdenlive.org/en/)
-  - PDF Reader
+  - PDF 
     - [Foxit Reader](https://linuxhint.com/install_foxit_reader_ubuntu/)
+    - [calibre](https://calibre-ebook.com/download_linux)
     
   - Image Editing
     - gimp - `sudo snap install gimp`
@@ -73,6 +74,26 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
     sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
     ```
+- personal
+  - pomodoro
+    - [pomodoro Gonme](https://gnomepomodoro.org/)
+    - [Pomotroid KDE](https://store.kde.org/p/1276501/)
+    - [Tomatoid KDE](https://store.kde.org/p/1002086)
+  - chat
+    - telegram-desktop
+    - skype
+    - discord
+
+# install obs-studio
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt install obs-studio
+
+
+# install nordvpn 
+wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
+sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
+Step One: config them
+https://docs.docker.com/engine/security/rootless/ https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
 
 
 ## Config ENV and Linux Custom config
