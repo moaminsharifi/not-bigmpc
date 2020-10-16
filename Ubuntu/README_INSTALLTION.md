@@ -10,13 +10,13 @@ sudo apt update
 sudo apt upgrade -y
 
 sudo apt --fix-broken install -y software-properties-common curl git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
-sudo snap install postman -y
+sudo snap install postman
 
-sudo snap install code  -y
-sudo snap install gimp  -y
-sudo snap install discord  -y
-sudo snap install skype  -y
-sudo snap install vlc -y
+sudo snap install code 
+sudo snap install gimp 
+sudo snap install discord 
+sudo snap install skype 
+sudo snap install vlc
 
 sudo apt update
 sudo add-apt-repository universe
