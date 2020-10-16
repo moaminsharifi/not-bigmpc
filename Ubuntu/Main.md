@@ -15,7 +15,13 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
   - [Snapp](https://snapcraft.io/)
 - Programing
   - IDE
-    - VSCODE - configs
+    - VSCODE - [configs](https://gist.github.com/bigmpc/e8615de2963724ee83c096bfe8646124)
+
+      1- Install [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and login to github
+      
+      2 - Add gits id `e8615de2963724ee83c096bfe8646124`
+      
+      3- enjoy it!
     - jupyter - configs
     - IntelJ IDE - configs
     
