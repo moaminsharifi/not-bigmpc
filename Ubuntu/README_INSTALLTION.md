@@ -9,8 +9,9 @@ Main idea is do not break chain of installation so let's start it.
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt --fix-broken install -y software-properties-common crul git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
+sudo apt --fix-broken install -y software-properties-common curl git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
 snap install postman code gimp discord skype vlc
+sudo apt update
 sudo add-apt-repository universe
 
 
@@ -71,12 +72,12 @@ sudo apt update
 
 
 # install superproductivity edge version
- sudo snap install --channel=edge superproductivity
+sudo snap install --channel=edge superproductivity
 
 
 ```
 
-- Step One: config them
+- Step One: config them:
 
 https://docs.docker.com/engine/security/rootless/
 
