@@ -26,8 +26,10 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
       3- enjoy it!
     - jupyter - configs - `pip3 install jupyter`
     - IntelJ IDE - configs
+    - Great VIM
     
   - ENV
+     - git
      - [php 7.4](https://github.com/bigmpc/bigmpc/blob/main/Ubuntu/programing/php.md)
         - [composer](https://getcomposer.org/download/)
         - [laravel installer](https://laravel.com/docs/8.x/#installing-laravel)
