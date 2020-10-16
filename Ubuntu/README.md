@@ -60,6 +60,9 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
   - Image Editing
     - gimp - `sudo snap install gimp`
     - [photopea](https://www.photopea.com/)
+  - Video Player
+    - mpv
+    - vlc
   
 - Internet:
   - Browser:

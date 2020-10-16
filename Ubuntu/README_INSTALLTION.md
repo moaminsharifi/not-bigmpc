@@ -10,7 +10,7 @@ sudo apt update
 sudo apt upgrade -y
 
 sudo apt --fix-broken install -y software-properties-common crul git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
-snap install postman code gimp discord skype
+snap install postman code gimp discord skype vlc
 sudo add-apt-repository universe
 
 
@@ -52,7 +52,7 @@ sudo apt install kdenlive
 
 # install obs-studio
 sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt install obs-studio
+sudo apt install obs-studio mpv
 
 
 # install nordvpn 
@@ -68,6 +68,10 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 wget -qnc https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn-release_1.0.0_all.deb
 sudo dpkg -i nordvpn-release_1.0.0_all.deb
 sudo apt update
+
+
+# install superproductivity edge version
+ sudo snap install --channel=edge superproductivity
 
 
 ```
