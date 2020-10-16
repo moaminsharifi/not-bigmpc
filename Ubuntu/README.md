@@ -79,22 +79,23 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     - [pomodoro Gonme](https://gnomepomodoro.org/)
     - [Pomotroid KDE](https://store.kde.org/p/1276501/)
     - [Tomatoid KDE](https://store.kde.org/p/1002086)
+    - [RSIBreak](https://userbase.kde.org/RSIBreak)
   - chat
     - telegram-desktop
     - skype
     - discord
 
 # install obs-studio
+```
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt install obs-studio
-
+```
 
 # install nordvpn 
+```
 wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
 sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
-Step One: config them
-https://docs.docker.com/engine/security/rootless/ https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
-
+```
 
 ## Config ENV and Linux Custom config
 ```bash
