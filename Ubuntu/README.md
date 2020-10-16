@@ -29,14 +29,14 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     - Great VIM
     
   - ENV
-     - git
+     - [git](https://git-scm.com/)
      - [php 7.4](https://github.com/bigmpc/bigmpc/blob/main/Ubuntu/programing/php.md)
         - [composer](https://getcomposer.org/download/)
         - [laravel installer](https://laravel.com/docs/8.x/#installing-laravel)
      - [python 3.8.x](https://github.com/bigmpc/bigmpc/blob/main/Ubuntu/programing/python.md)
      - [nodejs 14.x](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
      - [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
-     - rust nightly
+     - [rust nightly](https://github.com/hamidrezakp/rusty-shop#1-install-rust-on-your-machine)
      - mysql (5.7)
      
      
@@ -84,19 +84,7 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     - telegram-desktop
     - skype
     - discord
-
-# install obs-studio
-```
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt install obs-studio
-```
-
-# install nordvpn 
-```
-wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
-sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
-```
-
+  
 ## Config ENV and Linux Custom config
 ```bash
 #spotify ad blocker
