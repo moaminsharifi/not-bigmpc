@@ -9,8 +9,8 @@ Main idea is do not break chain of installation so let's start it.
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt --fix-broken install -y software-properties-common crul git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server
-snap install postman code gimp
+sudo apt --fix-broken install -y software-properties-common crul git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
+snap install postman code gimp discord skype
 sudo add-apt-repository universe
 
 
@@ -59,9 +59,17 @@ sudo apt install obs-studio
 wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
 sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
 
+
+# install calibre
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+
+
 ```
 
 - Step One: config them
 
 https://docs.docker.com/engine/security/rootless/
+
+
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
