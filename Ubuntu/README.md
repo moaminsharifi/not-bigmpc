@@ -57,9 +57,7 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     - Firefox
     - Chormium - `sudo apt install chromium-browser`
     - PostMan - `sudo snap install postman`
-
-
-- ENV and Linux Custom config
+  - **aria2 download manager** - `sudo apt install -y aria2`
   - VPN - Change IP
     - [tor](https://molaei.org/tor-ubuntu/)
     - nordvpn
@@ -67,6 +65,10 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     wget https://github.com/bigmpc/nordvpn/raw/main/nordvpn_3.8.5_amd64.deb
     sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
     ```
+
+
+- ENV and Linux Custom config
+  
  
 
 ## list of fonts:
