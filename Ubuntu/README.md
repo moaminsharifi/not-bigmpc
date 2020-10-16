@@ -1,5 +1,7 @@
 # My linux config:
 
+![My favorite config](My favorite config.png)
+
 In here I want to talk about which app and config I use in ubuntu base linux on main system (laptop and pc)
 ---
 ### My hardwares:
