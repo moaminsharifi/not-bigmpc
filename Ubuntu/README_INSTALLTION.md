@@ -64,6 +64,11 @@ sudo apt --fix-broken install ./nordvpn_3.8.5_amd64.deb
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
 
+# install nordvpn ppa
+wget -qnc https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn-release_1.0.0_all.deb
+sudo dpkg -i nordvpn-release_1.0.0_all.deb
+sudo apt update
+
 
 ```
 
