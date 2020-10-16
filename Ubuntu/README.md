@@ -1,6 +1,6 @@
 # My linux config:
 
-![My favorite config](My favorite config.png)
+![My favorite config](https://github.com/bigmpc/bigmpc/raw/main/Ubuntu/My%20favorite%20config.png)
 
 In here I want to talk about which app and config I use in ubuntu base linux on main system (laptop and pc)
 ---
