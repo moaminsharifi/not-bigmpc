@@ -11,9 +11,7 @@ sudo apt upgrade -y
 
 sudo apt --fix-broken install -y software-properties-common curl git vim chromium-browser snapd aria2 python3-pip ffmpeg tor obfs4proxy privoxy torsocks mysql-server telegram-desktop
 sudo snap install postman
-
 sudo snap install code 
-sudo snap install gimp 
 sudo snap install discord 
 sudo snap install skype 
 sudo snap install vlc
@@ -58,9 +56,9 @@ sudo add-apt-repository ppa:kdenlive/kdenlive-stable
 
 sudo apt install kdenlive
 
-# install obs-studio
+# install obs-studio mpv gimp
 sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt install obs-studio mpv
+sudo apt install obs-studio mpv gimp
 
 
 # install nordvpn 
