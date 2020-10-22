@@ -87,6 +87,8 @@ In here I want to talk about which app and config I use in ubuntu base linux on 
     - telegram-desktop
     - skype
     - discord
+   - Mind Map
+      - [xmind](https://linuxhint.com/install_foxit_reader_ubuntu/)
   
 ## [Config ENV and Linux Custom config](https://gist.github.com/bigmpc/7448ca77e1b4f8e70296bf6974d3b4a7)
 ```bash
