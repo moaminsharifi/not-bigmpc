@@ -105,3 +105,5 @@ php7.4-yaml
 php7.4-zip
 
 php7.4-zmq
+
+php7.4-bcmath
